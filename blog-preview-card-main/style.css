@@ -2,6 +2,7 @@
     --yellow: hsl(47, 88%, 63%);
     --light-gray: hsl(0, 0%, 42%);
     --dark-gray: hsl(0, 0%, 7%);
+    --bs-body-bg: hsl(47, 88%, 63%);
 }
 
 .figtree-<uniquifier> {
@@ -11,7 +12,7 @@
   font-style: normal;
 }
 
-body {
+#body {
     background-color: var(--yellow);
     font-family: "Figtree";
 }
@@ -52,7 +53,7 @@ body {
     color: var(--yellow);
 }
 
-#learning-button {
+/* #learning-button {
     width: 120px;
     height: 30px;
     background-color: var(--yellow);
@@ -62,7 +63,7 @@ body {
     align-items: center;
     padding: 5px;
     border-radius: 5px;
-}
+} */
 
 #learning-button a {
     text-decoration: none;
@@ -84,7 +85,7 @@ h1 {
 
 #blog-info {
     color: var(--light-gray);
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 #author {
@@ -99,7 +100,7 @@ h1 {
 }
 
 #author p {
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-top: 10px;
 }
 

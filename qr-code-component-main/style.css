@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+:root {
+  --light-blue: hsl(212, 45%, 89%);
+  --med-blue: hsl(216, 15%, 48%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
 body {
     font-family: "Outfit";
+    background-color: var(--light-blue);
 }
